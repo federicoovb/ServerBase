@@ -62,7 +62,7 @@ public class ServerBase {
     }
     
     public static void main(String[] args) {
-        ServerBase server = new ServerBase(6666);
+        ServerBase server = new ServerBase(5500);
         server.runServer();
     }
     
