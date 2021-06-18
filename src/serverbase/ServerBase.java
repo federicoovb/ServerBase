@@ -5,10 +5,7 @@
  */
 package serverbase;
 
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
+import java.io.*;
 import java.net.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -17,6 +14,7 @@ import java.util.logging.Logger;
  *
  * @author violaboros.federico
  */
+
 public class ServerBase {
     private int port;
     private ServerSocket SS;
